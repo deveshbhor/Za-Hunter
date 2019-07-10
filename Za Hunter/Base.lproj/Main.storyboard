@@ -28,11 +28,27 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="8tb-gw-Z1K" id="kXx-fn-UgU"/>
+                        <segue destination="Om3-mv-lqg" kind="show" id="MEu-uR-LlR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+        <!--Location Details View Controller-->
+        <scene sceneID="ZUA-E7-u2E">
+            <objects>
+                <viewController id="Om3-mv-lqg" customClass="LocationDetailsViewController" customModule="Za_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9nF-77-S4x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Foc-AF-vkc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b00-dz-uWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="115"/>
         </scene>
     </scenes>
 </document>
